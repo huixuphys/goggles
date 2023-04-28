@@ -1,0 +1,8 @@
+! name: whitelist
+! description: whitelist
+! public: true
+! author: huixuphys
+
+$discard
+$boost=4,site=github.com
+$boost=2,site=bbc.com
