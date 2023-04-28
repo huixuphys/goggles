@@ -3,6 +3,121 @@
 ! public: true
 ! author: huixuphys
 
-$discard
-$boost=4,site=github.com
-$boost=2,site=bbc.com
+! block list
+|http://m.*$discard
+|https://m.*$discard
+$discard,site=sohu.com
+$discard,site=weibo.com
+$discard,site=csdn.net
+$discard,site=answers.microsoft.com
+$discard,site=sina.com.cn
+$discard,site=zhuanlan.zhihu.com
+$discard,site=9game.cn
+$discard,site=17173.com
+$discard,site=18183.com
+https://www.gdtai.com$discard
+$discard,site=pipaw.com
+$discard,site=gl.ali213.net
+$discard,site=ynzb.com.cn
+$discard,site=te5.com
+$discard,site=siemens-home.cn
+$discard,site=9k9k.com
+$discard,site=newasp.com
+$discard,site=yeshen.com
+
+! general
+$boost=5,site=en.wikipedia.org
+$boost=5,site=zh.wikipedia.org
+$boost=5,site=stackexchange.com
+$boost=5,site=ycombinator.com
+$boost=4,site=reddit.com
+$boost=4,site=v2ex.com
+$boost=3,site=pincong.com
+$boost=4,site=sspai.com
+$boost=2,site=theverge.com
+$boost=2,site=youtube.com
+$boost=2,site=www.zhihu.com
+
+! computer
+$boost=5,site=github.com
+$boost=5,site=github.io
+$boost=5,site=stackoverflow.com
+$boost=5,site=superuser.com
+$boost=5,site=archlinux.org
+$boost=8,site=brave.com
+$boost=2,site=programiz.com
+$boost=2,site=css-tricks.com
+$boost=2,site=linuxize.com
+$boost=3,site=liaoxuefeng.com
+$boost=3,site=ruanyifeng.com
+$boost=1,site=segmentfault.com
+
+! science in general
+$boost=4,site=arxiv.org
+$boost=2,site=scholar.google.com
+$boost=4,site=chaoli.club
+
+! news
+$boost=1,site=bbc.com
+$boost=1,site=cn.nytimes.com
+$boost=2,site=epaper.southcn.com
+
+! tech
+$boost=1,site=thegadgetflow.com
+
+! medical
+$boost=7,site=www.msdmanuals.cn
+$boost=1,site=dxy.com
+
+! physics and mathematics
+$boost=4,site=mathoverflow.net
+$boost=4,site=encyclopediaofmath.org
+$boost=4,site=inspirehep.net
+journals.aps.org/prl/$boost=5
+
+! games
+$boost=4,site=cowlevel.net
+$boost=2,site=gcores.com
+$boost=1,site=gamespot.com
+$boost=1,site=steamcommunity.com
+$boost=4,site=bbs.nga.cn
+$boost=3,site=bbs.3dmgame.com
+$boost=1,site=steampowered.com
+$boost=2,site=www.taptap.com
+|https://zhuanlan.zhihu.com/p/$boost=4
+
+! personal sites
+math.ucr.edu/home/baez$boost=3
+math.columbia.edu/~woit/wordpress$boost=3
+$boost=3,site=eveaz.com
+$boost=3,site=dgross.ca
+$boost=3,site=xianyuzhongzhi.wordpress.com
+$boost=3,site=changhai.org
+$boost=3,site=qchu.wordpress.com
+$boost=3,site=terrytao.wordpress.com
+$boost=3,site=mozartchern.blogspot.com
+$boost=3,site=ysfine.com
+$boost=3,site=www-personal.umich.edu
+$boost=3,site=backreaction.blogspot.com
+$boost=3,site=kew1beans.wordpress.com
+$boost=3,site=blogs.ams.org
+$boost=3,site=quantumdiaries.org
+$boost=3,site=itechzero.com
+$boost=3,site=starduster.me
+$boost=3,site=glorystar.me
+$boost=3,site=skywind.me
+$boost=3,site=misterma.com
+$boost=3,site=myuan.fun
+$boost=3,site=daringfireball.net
+$boost=3,site=boastr.net
+$boost=3,site=4gravitons.com
+$boost=3,site=iamwr.com
+$boost=3,site=major.io
+$boost=3,site=guimauve.io
+$boost=3,site=xheldon.com
+$boost=3,site=jwz.org
+$boost=3,site=joshtronic.com
+
+! others
+$boost=2,site=investopedia.com
+
